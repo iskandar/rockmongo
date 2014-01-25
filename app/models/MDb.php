@@ -27,8 +27,9 @@ class MDb {
 		$server = MServer::currentServer();
 		
 		$names = array();
+
 		try {
-			$names = self::exec($db, 'function (){ return db.getCollectionNames(); }');
+			$names = $db->getCollectionNames(true);
 		} catch(Exception $e) {
 			
 		}
