@@ -3,6 +3,11 @@ Introduction
 RockMongo is a MongoDB administration tool, written in PHP 5, very easy to install and use.
 
 
+Updates by iskandar
+===================
+
+* 2014-01-25: Change error_reporting in order to remove deprecation warnings
+
 Installation
 --------------------------------------
 1. Install PHP runtime environment if you don't have one yet, such like Apache Httpd, Nginx ...
